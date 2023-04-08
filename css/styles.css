@@ -1,0 +1,215 @@
+:root {
+  /* Fonts */
+  --primary-font: Roboto;
+  --second-font: Raleway;
+  /* Text colors */
+  --main-txt-cl: #2e2f42;
+  --accent-txt-cl: #404bbf;
+  --logo-txt-cl: #4d5ae5;
+  --text-txt-cl: #434455;
+  --btn-txt-cl: #ffffff;
+  --white-txt-cl: #f4f4fd;
+  /* BG colors */
+  --accent-bg-cl: #06060a;
+  /* Others */
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #ffffff;
+}
+/* reset */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+} 
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #4d5ae5;
+  
+}
+.logo-studio {
+  color: #2e2f42;
+}
+
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: #2e2f42;
+}
+
+.header-address {
+font-style: normal;
+}
+
+.header-link:hover,
+.header-link:focus,
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal; 
+  color: #434455;
+}
+
+/**
+  |============================
+  | Hero sections
+  |============================
+*/
+.hero-fons-pic {
+  background-color: #2e2f42;
+}
+.hero {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero_btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+} 
+.hero_btn:hover,
+.hero_btn:focus {
+  background-color: #404bbf;
+}
+
+/* Section 1 */
+.subtitle,
+.subtitle,
+.subtitle,
+.subtitle {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.subtitle-txt {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+/* Section 2 */
+.heading {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* Section  3*/
+.tittle_team {
+  background-color: #FFFFFF;
+}
+.fons-ourteam {
+  background-color: #f4f4fd;
+}
+
+/* Footer */
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-fons-pic {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* Portfolio hero */
+.btn-list-txt {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.btn-list-txt:hover,
+.btn-list-txt:focus {
+  color: #ffffff;
+  background-color: #404BBF;
+}
+/* Portfolio */
+.portfolio-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list_servise {
+background-color: #FFFFFF;
+}
+.portfolio-desk {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
