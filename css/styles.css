@@ -75,7 +75,7 @@ li:last-child {
 }
 
 .header {
-
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -84,6 +84,7 @@ li:last-child {
 }
 .header-nav {
   display: flex;
+  align-items: center;
  
 }
 .header-logo {
@@ -109,6 +110,7 @@ li:last-child {
   padding-bottom: 24px;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-item {
 }
@@ -132,6 +134,7 @@ margin: auto;
   display: flex;
   margin: auto;
   margin-left: 332px;
+  gap: 40px;
 }
 
 
