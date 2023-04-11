@@ -1,172 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфоліо</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Norolize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <!-- Header -->
-    <header>
-        <div class="container main-nav">
-          <nav class="nav">
-              <a href="./index.html" class="logo"><span class="logo-web">Web</span> Studio</a>
-  
-            <ul class="site-nav list">
-                 <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                 <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-                 <li class="item"><a href="" class="link">Контакты</a></li>
-            </ul>
+    <header class="header">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <!-- Logo -->
+          <a class="header-logo link" href="./index.html"
+            >Web <span class="logo-studio">Studio</span></a
+          >
+          <!-- Navigation -->
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
         </nav>
-
-        <ul class="contact-nav list">
-            <li class="item"><img src="./image/mail.svg" alt="telephone">
-                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="item"><img src="./image/tel.svg" alt="mail">
-                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
+        <address class="header-address">
+          <ul class="header-contakts list">
+            <li class="address-mailto">
+              <a class="address link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address_tel">
+              <a class="address link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
-
     <main>
-        <!-- Portfolio -->
-        <section class="portfolio">
-            <div class="container">
-              <h1 class="portfolio-title visually-hidden">Portfolio</h1>
-                <ul class="list portfolio-list">
-                    <li class="item"><button class="portfolio-button list" type="button">Все</button></li>
-                    <li class="item"><button class="portfolio-button list" type="button">Веб-сайты</button></li>
-                    <li class="item"><button class="portfolio-button list" type="button">Приложения</button></li>
-                    <li class="item"><button class="portfolio-button list" type="button">Дизайн</button></li>
-                    <li class="item"><button class="portfolio-button list" type="button">Маркетинг</button></li>
-                </ul>
-            </div>
-            <div class="container">
-                <ul class="list portfolio-work">
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/port1.jpg" width="380" height="294" alt="our people">
-                            <div class="card">
-                                <h2>Технокряк</h2>
-                                <p class="port-text">Веб-сайт</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project2.jpg" width="380" height="294" alt="backetball"> 
-                            <div class="card">
-                                <h2>Постер New Orlean vs Golden Star</h2>
-                                <p class="port-text">Дизайн</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project3.jpg" width="380" height="294" alt="restaurant"> 
-                            <div class="card">
-                                <h2>Ресторан Seafood</h2>
-                                <p class="port-text">Приложение</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project4.jpg" width="380" height="294" alt="headphone"> 
-                            <div class="card">
-                                <h2>Проект Prime</h2>
-                                <p class="port-text">Маркетинг</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project5.jpg" width="380" height="294" alt="boxex"> 
-                            <div class="card">
-                                <h2>Проект Boxes</h2>
-                                <p class="port-text">Приложение</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project6.jpg" width="380" height="294" alt="computer"> 
-                            <div class="card">
-                                <h2>Inspiration has no Borders</h2>
-                                <p class="port-text">Веб-сайт</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project7.jpg" width="380" height="294" alt="magazine"> 
-                            <div class="card">
-                                <h2>Издание Limited Edition</h2>
-                                <p class="port-text">Дизайн</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project8.jpg" width="380" height="294" alt="project"> 
-                            <div class="card">
-                                <h2>Проект LAB</h2>
-                                <p class="port-text">Приложение</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                    <li class="element"><a class="port-subtitle" href="">
-                            <img class="picture" src="./image/project9.jpg" width="380" height="294" alt="growing business"> 
-                            <div class="card">
-                                <h2>Growing Business</h2>
-                                <p class="port-text">Маркетинг</p>
-                                <!-- <p class="port-desc">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> -->
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+       <!-- Hero section list -->
+      <section>
+        <h1 class="off" hidden>List projects</h1>
+        <ul class="link list">
+          <li>
+            <button class="btn-list-txt" type="button">All</button>
+          </li>
+          <li>
+            <button class="btn-list-txt" type="button">Web Site</button>
+          </li>
+          <li>
+            <button class="btn-list-txt" type="button">App</button>
+          </li>
+          <li>
+            <button class="btn-list-txt" type="button">Design</button>
+          </li>
+          <li>
+            <button class="btn-list-txt" type="button">Marketing</button>
+          </li>
+        </ul>
+        <!-- Portholio list -->
+        <ul class="list">
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/banking_app.jpg"
+              alt="Banking App Interface Concept"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Banking App Interface Concept</h2>
+            <p class="portfolio-desk">App</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/cashless_payment-2.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Cashless Payment</h2>
+            <p class="portfolio-desk">Marketing</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/meditation_app-2.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Meditation App</h2>
+            <p class="portfolio-desk">App</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/taxi_service-2.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Taxi Service</h2>
+            <p class="portfolio-desk">Marketing</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/sscreen_illustrations-2.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Screen Illustrations</h2>
+            <p class="portfolio-desk">Design</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/online_courses-2.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Online Courses</h2>
+            <p class="portfolio-desk">Marketing</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/instagram_stories-2.jpg"
+              alt="Instagram Stories Concept"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Instagram Stories Concept</h2>
+            <p class="portfolio-desk">Design</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/organic_food-2.jpg"
+              alt="Organic Food"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Organic Food</h2>
+            <p class="portfolio-desk">Web Site</p>
+            </a>
+          </li>
+          <li class="list_servise">
+            <a class="link" href="">
+              <img
+              src="./images/fresh_coffee-2.jpg"
+              alt="Fresh Coffee"
+              width="360"
+              height="300"
+            />
+            <h2 class="portfolio-title">Fresh Coffee</h2>
+            <p class="portfolio-desk">Web Site</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container flex-footer">
-
-        <!-- Address -->
-        <div class="footer-list">
-            <a class="logo-footer" href="./index.html"><span class="logo-web">Web </span>Studio</a>
-            <address class="address">
-              <p class="contact">г. Киев, пр-т Леси Украинки, 26</p>
-              <a href="mailto:info@example.com" class="link">info@example.com</a>
-              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
-            </address>
-        </div>
-
-        <!-- Invitation -->
-        <div class="main-invitation">
-            <b class="invitation">Присоединяйтесь</b>
-            <ul class="invitation-list list">
-                <li><a href="" aria-label="Instagram link">Instagram</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href="" aria-label="Facebook link">Facebook</a></li>
-                <li><a href="" aria-label="Linkedin link">Linkedin</a></li>
-            </ul>
-        </div>
-
-        <div class="signup">
-            <b class="invitation">Подпишитесь на рассылку</b>
-            <a href="" class="button">Подписаться</a>
-        </div>
-      </div>
-      
-        <!-- Сopyright -->
-        <p class="copyright container">2020 | Developed by GoIT Students</p>
-      
+    <!-- Footer portfolio -->
+    <footer class="footer-fons-pic">
+      <a class="header-logo link" href="./index.html"
+        >Web <span class="footer-logo">Studio</span></a
+      >
+      <p class="footer-text">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
-</body>
+  </body>
 </html>

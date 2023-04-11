@@ -112,6 +112,7 @@ li:last-child {
   
 }
 .header-item {
+  padding: 24px 0;
 }
 .header-link {
   font-weight: 500;
@@ -175,6 +176,7 @@ margin: auto;
   color: #ffffff;
   margin-bottom: 48px;
   margin: 0 auto;
+  max-width: 496px;
 }
 .hero_btn {
   min-width: 169px;
