@@ -9,6 +9,7 @@
   --text-txt-cl: #434455;
   --btn-txt-cl: #ffffff;
   --white-txt-cl: #f4f4fd;
+  --btn-cl: #e7e9fc;
   /* BG colors */
   --accent-bg-cl: #06060a;
   /* Others */
@@ -121,6 +122,7 @@ li:last-child {
   letter-spacing: 0.02em;
   font-style: normal;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-address {
@@ -307,6 +309,15 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+/* Main */
+.main-section {
+  padding: 96px 0 120px;
+}
 
 /* Portfolio hero */
 .btn-list-txt {
@@ -318,13 +329,25 @@ gap: 24px;
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--btn-cl);
+  border-radius: 4px;
 }
 .btn-list-txt:hover,
 .btn-list-txt:focus {
   color: #ffffff;
   background-color: #404BBF;
+  border: 1px solid transparent;
 }
-/* Portfolio */
+
+.hero-list {
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+
+}
+
 .portfolio-title {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -332,9 +355,23 @@ gap: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .list_servise {
 background-color: #FFFFFF;
+}
+.img-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-desk {
   font-family: Roboto, sans-serif;
@@ -343,4 +380,5 @@ background-color: #FFFFFF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: calc((100% - 48px) / 3);
 }
