@@ -105,6 +105,7 @@ header .logo {
 
 footer .logo {
     margin-bottom: 16px;
+    /* display: inline-block; */
 }
 
 .logo-studio {
@@ -230,11 +231,21 @@ margin-left: auto;
   
 }
 
+/* .subtitle,
 .subtitle,
-.subtitle,
-.subtitle,
+.subtitle, */
 .subtitle {
   /* font-family: Roboto, sans-serif; */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.subtitle-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -242,10 +253,20 @@ margin-left: auto;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-
 }
 
+
 .subtitle-txt {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: #434455;
+  width: 264px;
+}
+.subtitle-team-txt {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -255,6 +276,7 @@ margin-left: auto;
   color: #434455;
   /* width: 264px; */
 }
+
 /* Section 2 */
 .section-work {
 padding-bottom: 120px;
