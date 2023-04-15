@@ -89,8 +89,8 @@ li:last-child {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-style: normal;
@@ -105,7 +105,7 @@ header .logo {
 
 footer .logo {
     margin-bottom: 16px;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .logo-studio {
@@ -117,6 +117,7 @@ footer .logo {
   padding-bottom: 24px; */
   display: flex;
   gap: 40px;
+ 
   
 }
 .header-item {
@@ -224,7 +225,7 @@ margin-left: auto;
 }
 
 .section_items {
-  
+  width: calc((100% - 72px) / 4);
 }
 
 .section_strategy {
@@ -264,7 +265,7 @@ margin-left: auto;
   letter-spacing: 0.02em;
   /* text-align: center; */
   color: #434455;
-  width: 264px;
+ 
 }
 .subtitle-team-txt {
   font-family: Roboto, sans-serif;
